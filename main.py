@@ -28,7 +28,7 @@ def get_database_session():
         db.close()
 
 
-@app.get("/movie", response_class=HTMLResponse)
+@app.get("/", response_class=HTMLResponse)
 async def read_item(request: Request, db: Session = Depends(get_database_session)):
     records = db.query(Movie).all()
     return templates.TemplateResponse("index.html", {"request": request, "data": records})
