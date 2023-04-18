@@ -47,7 +47,6 @@ Note: To access other endpoints in the FastAPI application, you can access them 
 
 - Add more tests to ensure that the application functions correctly and handle errors and edge cases gracefully.
 - Consider adding more security measures, such as authentication and authorization, to protect user data and prevent unauthorized access to the application.
-- Add a database to the application
 - Improve the performance of the application by optimizing database queries and reducing response times.
 - Consider deploying the application to a cloud service like AWS or Google Cloud to make it more accessible and scalable.
 
