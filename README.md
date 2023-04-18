@@ -1,4 +1,4 @@
-# Serverside Rendering Application with FastAPI
+# Server-side Rendering Application with FastAPI
 
 This repository is a FastAPI application implementing server-side rendering.
 
